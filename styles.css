@@ -1,0 +1,38 @@
+/*Nolan Dow Portfoilio Stylesheet */
+body {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+
+.basic-page {
+    background: #4c4c4c;
+    color: white;
+    font-family: Monospace, sans-serif;
+}
+
+.masthead-nav > li {
+    display: inline-block;
+}
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.jumbotron {
+    background-image: url( "assets/images/cover1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+    min-height: 600px;
+    border-radius: 0px !important;
+}
+
+.cover-heading {
+    font-family: "Monoton", Arial, sans-serif;
+}
