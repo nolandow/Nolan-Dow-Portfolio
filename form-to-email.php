@@ -9,11 +9,11 @@
 		<?php
 			
 			
-			$name = $__POST['name'];
-			$visitor_email = $__POST['email'];
+			$name = $__GET['name'];
+			$visitor_email = $__GET['email'];
 			$email_subject = 'Portfolio Message from $name';
-			$email_subject = $__POST['subject'];
-			$message = $__POST['message'];
+			$email_subject = $__GET['subject'];
+			$message = $__GET['message'];
 			
 			$email_from = 'nolan@nolandow.github.io';
 			$email_body = "You have received a new email on your Portfolio from $name. \n".
