@@ -1,19 +1,39 @@
 /*Nolan Dow Portfoilio Stylesheet */
+/*Colors: Fuschia #A239CA Jewel #4717F6 Stark #E7DFDD*/
+
 body {
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
+.container-fluid{
+  padding: 0;
+}
 
 .basic-page {
-    background: #4c4c4c;
+    background: black;
     color: white;
-    font-family: Monospace, sans-serif;
+    font-family: Verdana, sans-serif;
+}
+
+.masthead-nav {
+  background-color: #4717F6;
+  border-color:#592059;
 }
 
 .masthead-nav > li {
-    display: inline-block;
+  display: inline-block;
+  background-color: #E7DFDD;
+  margin: 10px;
+  corner-radius: 5px;
+}
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
 }
 
 .lead {
@@ -23,16 +43,53 @@ body {
     line-height: 1.4;
 }
 
+.btn-learn {
+        background-color: #A239CA;
+        color: #fff;
+        border-radius: 5px;
+}
+.btn-learn:hover,
+.btn-learn:focus,
+.btn-learn:active    {
+        background-color: #A239CA;
+        color: #FFF;
+}
+
 .jumbotron {
-    background-image: url( "assets/images/cover1.jpg");
+    background-image: url( "http://www.mrwallpaper.com/wallpapers/space-sparkling-stars.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 0;
     min-height: 600px;
     border-radius: 0px !important;
+    border-color:#592059;
 }
 
-.cover-heading {
-    font-family: "Monoton", Arial, sans-serif;
+.main-content {
+  font-size: 150%;
+  color: #404040;
+  text-align: left;
+  margin: 0;
+  padding: 10px 70px;
+  border-color:#592059;
+}
+
+#about {
+  background-color: #f8f8f8;
+  min-height: 300px;
+}
+
+#portfolio {
+  background-color: #fff;
+  min-height: 300px;
+}
+
+#contact {
+  background-color: #f8f8f8;
+  min-height: 300px;
+}
+
+.icon {
+  padding-right: 1em;
 }
