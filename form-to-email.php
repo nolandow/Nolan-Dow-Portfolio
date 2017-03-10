@@ -15,7 +15,7 @@
 			$email_subject = $__POST['subject'];
 			$message = $__POST['message'];
 			
-			$email_from = 'nolanadow@gmail.com';
+			$email_from = 'nolan@nolandow.github.io';
 			$email_body = "You have received a new email on your Portfolio from $name. \n".
 			"Here is the message: \n $message";
 			
