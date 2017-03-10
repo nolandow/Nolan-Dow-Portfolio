@@ -9,17 +9,17 @@
 		<?php
 			
 			
-			$name = $__GET['name'];
-			$visitor_email = $__GET['email'];
-			$email_subject = 'Portfolio Message from $name';
-			$email_subject = $__GET['subject'];
-			$message = $__GET['message'];
+			$name = $_POST['name'];
+			$visitor_email = $_POST['email'];
+			$email_subject = "Portfolio Message from $name";
+			$email_subject = $_POST['subject'];
+			$message = $_POST['message'];
 			
-			$email_from = 'nolan@nolandow.github.io';
+			$email_from = 'mail@nolandow.com';
 			$email_body = "You have received a new email on your Portfolio from $name. \n".
 			"Here is the message: \n $message";
 			
-			$email_to = 'nolanadow@gmail.com';
+			$email_to = 'mail@nolandow.com';
 			$headers = "From: $email_from \r \n";
 			$headers .= "Reply-To: $visitor_email \r \n";
 			mail($email_to, $email_subject, $email_body, $headers);
