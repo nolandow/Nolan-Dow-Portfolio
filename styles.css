@@ -1,5 +1,5 @@
 /*Nolan Dow Portfoilio Stylesheet */
-/*Colors: Fuschia #A239CA Jewel #4717F6 Stark #E7DFDD*/
+/*Colors: Fuschia #A239CA Dark Blue #032C3F Stark #E7DFDD*/
 
 body {
     color: #fff;
@@ -18,7 +18,7 @@ body {
 }
 
 .masthead-nav {
-  background-color: #4717F6;
+  background-color: #032C3F;
   border-color:#592059;
 }
 
@@ -92,4 +92,25 @@ body {
 
 .icon {
   padding-right: 1em;
+}
+
+#about__anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+#portfolio__anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+#contact__anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
 }

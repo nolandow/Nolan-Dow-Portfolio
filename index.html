@@ -48,42 +48,45 @@
   </head>
 
   
+  
   <body class="basic-page">
 
     <div class="container-fluid"> <!--Main Content-->
 
         <div class="jumbotron">
-			
           <h1 class="cover-heading">Nolan Dow</h1>
 			    <br><br><br>
-          <a href="#about" class="btn btn-lg btn-learn">Learn more</a><br><br><br><br>
+          <a href="#about__anchor" class="btn btn-lg btn-learn">Learn more</a><br><br><br><br>
           <h3>Web Design and Development</h3>
         </div>
         
         <nav> <!--Navigation Bar-->
         <ul class="nav masthead-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about__anchor">About</a></li>
+          <li><a href="#portfolio__anchor">Portfolio</a></li>
+          <li><a href="#contact__anchor">Contact</a></li>
         </ul>
       </nav>
         
         <!--About-->
-        <div class= "main-content" id="about">
+      <div class= "main-content" id="about">
+          <a id="about__anchor"></a>
           <h1>Who Am I?</h1>
           <p>I am a front-end web developer based out of Philadelphia, Pennsylvania. Experienced with design concepts and programming in HTML/CSS, PHP and Javascript, I am dedicated to telling my clients story and expanding their online visibility.
-        </div>
+      </div>
         
         <!-- Portfolio -->
-        <div class="main-content" id="portfolio">
-          <h1>Portfolio</h1>
-        </div>
+      <a id="portfolio__anchor"></a>
+      <div class="main-content" id="portfolio">
+        <h1>Portfolio</h1>
+      </div>
         
         <!-- Contact -->
+        <a id="contact__anchor"></a>
         <div class="main-content" id="contact">
           <h1>Contact</h1>
           <p>I can be readily reached using the form below. I make an effort to reply to all queries as quickly as possible.</p><br>
-          <form action="form-to-email.php" method="post" name="contact-form">
+          <form action="/form-to-email.php" method="post" name="contact-form">
             <input type = "text" name="name" placeholder = "Full Name" required></input><br><br>
             <input type = "text" name="email" placeholder = "Email Address" required></input><br><br>
             <input type = "text" name="subject" placeholder = "Subject" required></input><br><br>
@@ -113,7 +116,8 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </body>
+
 
 </html>
