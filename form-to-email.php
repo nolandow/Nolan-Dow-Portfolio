@@ -7,13 +7,19 @@
 	
 	<body>
 		<?php
-			
+			if ($_POST['name'] == " " || $_POST['email'] == " " || $_POST['subject'] == " " ||$_POST['message'] == " ") {
+				echo "You must complete all fields ";
+				?><a href="http://www.nolandow.com">Click here to return</a><?php
+				return false;
+			}
 			
 			$name = $_POST['name'];
 			$visitor_email = $_POST['email'];
 			$email_subject = "Portfolio Message from $name";
 			$email_subject = $_POST['subject'];
 			$message = $_POST['message'];
+			
+			
 			
 			$email_from = 'mail@nolandow.com';
 			$email_body = "You have received a new email on your Portfolio from $name. \n".
